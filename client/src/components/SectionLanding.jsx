@@ -11,8 +11,8 @@ function SectionLanding() {
     <div className="relative w-full">
       {/* Gambar */}
       <img src={ImageOllie} alt="Ollie" className="w-full h-auto" />
-      <div className="absolute inset-0 flex justify-center items-center pt-[400px] pr-[490px]">
-       <Buttonz Label= "Go to shop" route="/shop" onClick={() => handleNavigation(navigate, "/shop")}/>
+      <div className="absolute inset-0 flex justify-center items-center pt-[400px] pr-[400px]">
+       <Buttonz Label= "SHOPP NOW!!" route="/Shop" onClick={() => handleNavigation(navigate, "/Shop")}/>
       </div>
     </div>
   );

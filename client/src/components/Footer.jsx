@@ -11,7 +11,7 @@ function Footer() {
   const navigate = useNavigate();
 
   return (
-    <footer className="w-full bg-black text-white">
+    <footer className="w-full bg-white text-black">
       <div className="max-w-6xl mx-auto grid grid-cols-3 gap-8 text-sm px-16 py-8">
         {footerLinks.map((section) => (
           <div key={section.title}>

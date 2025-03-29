@@ -6,7 +6,7 @@ export const NavLinks = [
 
 ]
 export const NavLinks2 = [
-       { name: "New Fitured", route: "/new-featured"},
+       { name: "New Featured", route: "/new-featured"},
        { name: "Sale", route: "/Sale"},
        { name: "Categories", route: "/categories"},
 ]

@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom'
 function Coppyright() {
 const navigate = useNavigate()
   return (
-    <div className="w-full bg-white px-16 "> 
-      <div className=" mt-6 pt-4 text-xs text-black flex justify-between px-10 py-4 ">
+    <div className="w-full bg-black px-16 "> 
+      <div className=" mt-6 pt-4 text-xs text-white flex justify-between px-10 py-4 ">
         <p>&copy; 2025 OllieMarket, Inc. All rights reserved</p>
         <div className="flex gap-4 mr-[160px]">
               {coppyRightLinks.map((item, index)=> (
